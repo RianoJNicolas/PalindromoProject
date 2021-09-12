@@ -13,9 +13,9 @@ def run():
     es_palindromo = palindromo(palabra)
     
     if es_palindromo == True:
-        print('Es palindromo')
+        print(palabra + ', es palindroma')
     else:
-        print('No es palindromo')
+        print(palabra + ', NO es palindroma')
 
 
 if __name__ == '__main__':
