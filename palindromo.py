@@ -8,7 +8,7 @@ def palindromo(palabra):
     try:
         for index in numeros:
             if index in palabra:
-                raise ValueError("Por favor ingresa una palabra") 
+                raise ValueError("Por favor ingresa una palabra, por lo menos hay un numero dentro de ella") 
         return palabra == palabra[::-1]
     
     except ValueError as ve:
